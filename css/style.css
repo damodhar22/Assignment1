@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: "freight-sans-pro", arial;
+  overflow: auto;
+  background-color: #FFFFFF;
+}
+#center {
+  margin: 0 auto;
+  min-width: 1140px;
+}
+#header {
+  margin: 0 auto;
+  width: 1140px;
+  height: 90px;
+}
+#site-logo{
+  padding: 10px 0 0 10px;
+  float: left;
+}
+#nav-wrapper {
+  float: right;
+  width: 900px;
+}
+#navigation-menu {
+  float: right;
+  margin: 50px 20px 0 0;
+  padding: 0;
+}
+#navigation-menu li {
+  float: left;
+  margin: 0;
+  display: inline;
+}
+.container-wrap {
+  font-family: "Gotham A", "Gotham B", arial, sans-serif;
+  background-color: #fff;
+  overflow: hidden;
+}
+.welcomeIMG{
+  background: url(../img/welcomeIMG.jpg);
+  height: 500px;
+}
+.heroWelcomeMessage {
+  position: relative;
+  margin: 0 auto 20px;
+  text-align: center;
+  max-width: 660px;
+}
+.heroWelcomeMessage h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-bottom: 5px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  line-height: normal;
+  text-shadow: rgba(0,0,0,0.5) 0 1px 5px;
+}
+.heroWelcomeMessage h2 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700!important;
+  line-height: 1.4em;
+  text-shadow: rgba(0,0,0,0.5) 0 1px 5px;
+}
+.hero_section a{
+  text-decoration: none;
+  outline: 0;
+  color: #1d9dcc;
+}
+.section-front-header {
+  text-align: center;
+}
+.section-front-header h1 {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: Lota;
+  color: gray;
+  font-weight: 100;
+}
+.section-front-header__dek {
+  margin: 0px 0px 20px;
+  padding: 0 45px;
+  font-size: 1.1111111111rem;
+  font-family: cursive;
+}
+.heroIMG{
+  background: url(../img/heroIMG.jpg) no-repeat;
+  height: 500px;
+}
+.heroIMG img{
+  height: 100%;
+  width: 100%;
+}
+.textcontent{
+  text-align: center;
+  color: #fff;
+  padding: 100px 0 0;
+}
+.heading-block {
+  margin-bottom: 50px;
+}
+.fbox-desc h3{
+  font-weight: lighter;
+}
+.section {
+  margin: 30px auto;
+  position: relative;
+}
+.section h2,#tgh2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: Lato;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+#navigation-menu li a {
+  padding: 5px 20px;
+  color: #6D6E70;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+h3 span.subtitle {
+  display: block;
+  margin-top: 5px;
+  color: #444;
+  font-weight: 300;
+  text-transform: none;
+}
+.footerWrap{
+  background: #45484b;
+  width: 100%;
+  position:relative;
+}
+.footerCol {
+  padding: 10px 0;
+  font-size: .9em;
+}
+a {
+  text-decoration: none;
+}
+.footerCol ul{
+  list-style: none;
+}
+.footerCol ul li a {
+  color: #999;
+}
+.footerCol ul li{
+  margin-left: 0px;
+}
+.footerCol ul li.colHeader {
+  color: #ccc;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.socialLinks .txthead {
+  color: #CCC;
+}
+.socialLinks ul li{
+  float: left;
+  padding-right: 5px;
+}
+.co {
+  color: #999;
+}
+.tile__cover__content {
+  position: relative;
+  box-sizing: border-box;
+  bottom: 41px;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+}
+.tile__title {
+  padding: 0 12px 8px 12px;
+  font-size: 22px;
+  font-size: 1.57143rem;
+  width: 85%;
+  margin: 0;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+}
+.textcontent span {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  background: url(../img/playIcon.png) 0 0 no-repeat;
+  opacity: .8;
+}
+p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+img {
+  max-width: 100%;
+  overflow-x: hidden;
+}
