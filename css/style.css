@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-size: 100%;
-  font-family: "freight-sans-pro", arial;
+  font-family: sans-serif, arial;
   overflow: auto;
   background-color: #FFFFFF;
 }
@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   min-width: 1140px;
 }
+/* Header styling consists of Logo and Navigation */
 #header {
   margin: 0 auto;
   width: 1140px;
@@ -32,6 +33,13 @@ body {
   margin: 0;
   display: inline;
 }
+#navigation-menu li a {
+  padding: 5px 20px;
+  color: #6D6E70;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+/*Styling for main content*/
 .container-wrap {
   font-family: "Gotham A", "Gotham B", arial, sans-serif;
   background-color: #fff;
@@ -60,7 +68,7 @@ body {
 .heroWelcomeMessage h2 {
   color: #fff;
   font-size: 1em;
-  font-weight: 700!important;
+  font-weight: 700;
   line-height: 1.4em;
   text-shadow: rgba(0,0,0,0.5) 0 1px 5px;
 }
@@ -117,12 +125,6 @@ body {
   text-transform: uppercase;
   font-weight: 200;
 }
-#navigation-menu li a {
-  padding: 5px 20px;
-  color: #6D6E70;
-  font-size: 13px;
-  text-transform: uppercase;
-}
 h3 span.subtitle {
   display: block;
   margin-top: 5px;
@@ -130,6 +132,7 @@ h3 span.subtitle {
   font-weight: 300;
   text-transform: none;
 }
+/* Styling for footer of the site*/
 .footerWrap{
   background: #45484b;
   width: 100%;
@@ -138,9 +141,6 @@ h3 span.subtitle {
 .footerCol {
   padding: 10px 0;
   font-size: .9em;
-}
-a {
-  text-decoration: none;
 }
 .footerCol ul{
   list-style: none;
@@ -189,6 +189,10 @@ a {
   display: inline-block;
   background: url(../img/playIcon.png) 0 0 no-repeat;
   opacity: .8;
+}
+/* Styling for html elements */
+a {
+  text-decoration: none;
 }
 p {
   margin-bottom: 20px;
