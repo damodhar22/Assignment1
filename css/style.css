@@ -4,7 +4,6 @@ body {
   font-family: sans-serif, arial;
   overflow: auto;
   background-color: #fff;
-  position: relative;
 }
 #center {
   margin: 0 auto;
@@ -12,14 +11,21 @@ body {
   position: relative;
 }
 /* Header styling consists of Logo and Navigation */
+.head-wrap{
+  top:0;
+  width:100%;
+  height:90px;
+}
 #header {
-  margin: 0 auto;
+  margin: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 90px;
   position: fixed;
   background-color: #fff;
   min-width: 1140px;
-  z-index: 2;
+  z-index: 999;
 }
 #site-logo{
   padding: 10px 0 0 110px;
@@ -27,11 +33,10 @@ body {
 }
 #nav-wrapper {
   float: right;
-  width: 900px;
 }
 #navigation-menu {
   float: right;
-  margin: 50px 20px 0 0;
+  margin: 35px 20px 0 0;
   padding: 0;
 }
 #navigation-menu li {
@@ -93,15 +98,12 @@ body {
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 10px;
-  font-family: Lota;
-  color: gray;
   font-weight: 100;
 }
 .section-front-header__dek {
   margin: 0px 0px 20px;
   padding: 0 45px;
   font-size: 1.1111111111rem;
-  font-family: cursive;
 }
 .heroIMG{
   background: url(../img/heroIMG.jpg) no-repeat;
@@ -128,10 +130,9 @@ body {
 }
 .section h2,#tgh2 {
   text-align: center;
-  font-size: 2em;
-  font-family: Lato;
+  font-size: 1.8em;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 100;
 }
 h3 span.subtitle {
   display: block;
